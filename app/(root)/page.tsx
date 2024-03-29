@@ -1,9 +1,13 @@
 import React from 'react'
+import { UserButton } from "@clerk/nextjs"
 
-const page = () => {
+const Home = () => {
   return (
-    <div>page</div>
+    <div>
+      <div>Homeee</div>
+
+    </div>
   )
 }
 
-export default page
+export default Home
